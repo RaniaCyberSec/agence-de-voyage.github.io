@@ -1,0 +1,282 @@
+/*general*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 18px;
+
+}
+h1{
+    font-family: 'Tangerine',serif;
+    font-size: 45px;
+    color:#444;
+}
+
+h2{
+    
+    font-size: 55px;
+    color:#000000;
+}
+
+h4{
+    font-size: 24px;
+    color:#444;
+}
+p{
+   line-height: 20px;
+   color:#777;
+
+}
+
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color:#444;
+}
+.wrapper{
+    width: 940px;
+    margin:0 auto;
+    padding: 0 10px;
+}
+.point{
+    color:#ff7a00;
+}
+
+.clear{
+    clear: both;
+}
+small{
+  font-size: 13px;
+  font-style: italic; 
+}
+
+h3{
+
+font-size: 30px;
+color:#444; 
+}
+
+/*header*/
+header{
+   height: 120px;
+}
+header h1{
+    float: left;
+    margin-top: 32px;
+
+}
+header nav{
+    float:right;
+    margin-top: 50px;
+}
+header nav ul li{
+    float: left;
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav ul li:hover{
+   color:#444;
+    background-color: #ff7a00;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+/*partie centrale*/
+
+#central{
+   height:580px;
+   background: url('images/mer.jpg') center;
+}
+
+#central h2{
+font-weight: normal;
+text-transform: uppercase;
+text-align: center;
+padding: 150px 0 40px 0;
+margin-bottom: 20px;
+}
+
+.button1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #ff7a00; 
+    color: aliceblue;
+    font-size: 20px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+}
+.button1:hover{
+    background-color: #6934fa; 
+}
+
+/*partie steps*/
+#steps ul{
+    margin: 80px 0;  
+}
+
+#steps ul li{
+width: 300px;
+float: left;
+padding-top: 140px;
+text-align: center;
+margin-right: 10px;
+}
+
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p{
+   
+    margin-bottom: 20px;
+}
+
+#step1{
+    background: url('images/pencil.png') no-repeat top center;
+
+}
+#step2{
+    background: url('images/organise.png') no-repeat top center;
+    
+}
+#step3{
+    background: url('images/fusee.png') no-repeat top center;
+    
+}
+
+/*possibilité*/
+
+#possibilite{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+
+#possibilite article{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilite article:first-child{
+    margin-right: 20px;
+}
+ .overlay{
+     background: rgba(255, 255, 255, 0.95);
+     height: 230px;
+     width: 190px;
+     padding: 20px;
+     border-radius: 10px 0 0 10px;
+     text-align: center;
+     
+ }
+
+ article h4{
+     border-bottom: 1px solid #ddd;
+     padding-bottom: 20px;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+
+ #possibilite p{
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .button2{
+     color:#fff;
+     background-color: #ff7a00;
+     padding: 6px 20px;
+     border-radius: 3px;
+ }
+ .button2:hover{
+    background-color: #6934fa;
+    
+}
+
+/*contact*/
+#contact{
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3{
+width: 400px;
+text-transform: uppercase;
+margin: 0 auto 20px auto;
+border-bottom: 1px solid #ff7a00;
+padding-bottom: 20px;
+
+}
+
+form{
+    margin: 60px 0 20px 0;
+
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid #ddd;
+    border-radius: 3px;
+
+}
+
+
+.button3{
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+padding: 11px;
+background-color: #0000ff;
+border-radius: 3px;
+border-style: none;
+}
+
+.button3:hover{
+    background-color: #444; 
+    color: #fff;
+}
+
+/*footer*/
+ footer{
+     height: 260px;
+     background-color: #444;
+
+ }
+
+ footer h1{
+     color: #fff;
+     padding:50px;
+     text-align: center;
+ }
+
+ .copyright{
+    color: #fff;
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+ }
